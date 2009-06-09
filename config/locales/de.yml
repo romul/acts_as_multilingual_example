@@ -1,0 +1,15 @@
+de:
+  show: "Show"
+  edit: "Edit"
+  destroy: "Destroy"
+  back_to_list: "Back to list"
+  'Really destroy post?': "Really destroy post?"
+  listing_posts: "Listing posts"
+  editing_post: "Editing post"
+  creating_post: "Creating post"
+  new_post: "New post"
+  title: "Заголовок"
+  body: "Содержимое"
+  create: "Create"
+  update: "Update"
+

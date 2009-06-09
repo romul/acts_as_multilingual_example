@@ -1,0 +1,12 @@
+%h1= h current_object.title
+
+%div[current_object]
+  %p.body
+    = h current_object.body
+
+= link_to t(:edit), edit_object_path
+|
+= link_to t(:destroy), object_path, :confirm => t('Really destroy post?'), :method => :delete
+|
+= link_to t(:back_to_list), locale_posts_path(current_locale)
+

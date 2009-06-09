@@ -1,0 +1,10 @@
+%h1= t(:creating_post)
+
+= error_messages_for :post
+
+- form_for(:post, :url => objects_url) do |f|
+  = render :partial => "form", :locals => {:f => f}
+  %p= submit_tag t(:create)
+
+= link_to t(:back_to_list), locale_posts_path(current_locale)
+

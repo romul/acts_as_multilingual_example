@@ -1,0 +1,18 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See http://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  show: "Show"
+  edit: "Edit"
+  destroy: "Destroy"
+  back_to_list: "Back to list"
+  'Really destroy post?': "Really destroy post?"
+  listing_posts: "Listing posts"
+  editing_post: "Editing post"
+  creating_post: "Creating post"
+  new_post: "New post"
+  title: "Title"
+  body: "Body"
+  create: "Create"
+  update: "Update"
+

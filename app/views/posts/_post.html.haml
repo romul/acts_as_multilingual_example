@@ -1,0 +1,13 @@
+%div[post]
+  %h3.title
+    = h post.title
+  %p.body
+    = simple_format post.body
+
+  = link_to t(:show), locale_post_url(current_locale, post)
+  |
+  = link_to t(:edit), edit_post_url(post)
+  |
+  = link_to t(:destroy), post_url(post), :confirm => t(:'Really destroy post?'), :method => :delete
+%hr
+

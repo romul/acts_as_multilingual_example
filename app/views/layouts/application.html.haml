@@ -1,0 +1,12 @@
+%html
+  %head
+    %title acts_as_multilingual
+  %body
+    - Multilingual.languages.each do |locale|
+      = (current_locale == locale) ? locale : |
+        link_to(locale, { :controller => controller.controller_name, |
+          :action => controller.action_name, |
+          :id => params[:id],  |
+          :locale => locale }) |
+    = yield :layout
+

@@ -1,0 +1,10 @@
+- Multilingual.languages.each do |lang|
+  %div{:style => 'float: left; width: 320px;'}
+    %p
+      %label{:for => "post_title_#{lang}"}= "#{t :title}(#{lang}):"
+      = f.text_field "title_#{lang}"
+    %p
+      %label{:for => "post_body_#{lang}"}= "#{t :body}(#{lang}):"
+      = f.text_area "body_#{lang}"
+%div{:style => 'clear: both;'}
+

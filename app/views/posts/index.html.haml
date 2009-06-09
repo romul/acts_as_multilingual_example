@@ -1,0 +1,6 @@
+%h1= t(:listing_posts)
+
+= render :partial => 'post', :collection => current_objects
+
+= link_to t(:new_post), new_post_url
+
